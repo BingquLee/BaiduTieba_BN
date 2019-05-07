@@ -9,6 +9,19 @@ import scrapy
 
 
 class TiebaBnItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    keyword = scrapy.Field()
+    url = scrapy.Field()
+    title = scrapy.Field()
+    tz_id = scrapy.Field()
+    source = scrapy.Field()
+    author = scrapy.Field()
+    create_time_dt = scrapy.Field()
+    create_time_ts = scrapy.Field()
+    content = scrapy.Field()
+    image_url = scrapy.Field()
+    gender = scrapy.Field()
+    reply = scrapy.Field()
+    update_dt = scrapy.Field()
+    update_ts = scrapy.Field()
+    project = scrapy.Field()
+    bar_name = scrapy.Field()
